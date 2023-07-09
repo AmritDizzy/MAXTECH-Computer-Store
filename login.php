@@ -20,7 +20,7 @@
   font-family: 'Raleway', sans-serif;
 }
 
-body{ background: purple; }
+body{ background: rebeccapurple; }
 
 .cont{
   position: relative;
