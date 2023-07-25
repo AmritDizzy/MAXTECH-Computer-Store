@@ -32,7 +32,7 @@
                 
                 if($row['p_discount'] > 0)
                 {
-                    $output .= "<p id=\"discount\">Discount: ".$row['p_discount']."% </p><p id=\"old-price\"><strike>Price:".$row['p_price']." TK</strike></p>";
+                    $output .= "<p id=\"discount\">Discount: ".$row['p_discount']."% </p><p id=\"old-price\"><strike>Price:".$row['p_price']." TTD</strike></p>";
                     $discount_amount = ($row['p_discount'] * $row['p_price'])/100;
                     $cr_amount = $row['p_price'] - $discount_amount;  
                     $output .= "<p id=\"new-price\">Price:".$cr_amount."TTD </p><br><p><span id=\"quantityno\">Units in Stock: <i>".$row['p_quantity']."</i></span></p>";

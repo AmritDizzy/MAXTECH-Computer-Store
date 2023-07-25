@@ -6,7 +6,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title><?= $uname; ?> dashboard</title>
+  <title><?= $uname; ?> Dashboard</title>
   
   
   <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
@@ -32,7 +32,7 @@
 <div class="container-fluid">
 <div class="navbar-header">
 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-<span class="sr-only">Toggle navigation</span>
+<span class="sr-only">Toggle Navigation</span>
 <span class="icon-bar"></span>
 <span class="icon-bar"></span>
 <span class="icon-bar"></span>
@@ -217,7 +217,7 @@
             
             $_SESSION['total'] = "0" ;
             
-            header('Location: user/thank-you.php');             
+            header('Location: user/thank-you.php');
                             
         
         }
@@ -310,7 +310,7 @@
                      
 
                     <p><span>Please Send <?php echo $totaltaka;?> TTD to Our Merchant Account Number 01812345678</span></p>
-                    <p id="cname" class="clabel"> Endcash Transaction ID :</p>
+                    <p id="cname" class="clabel"> EndCash Transaction ID :</p>
                     <input type="text" size="60" name="endcash" pattern="[0-9]+" title="numbers only" >
                     
                 </div>

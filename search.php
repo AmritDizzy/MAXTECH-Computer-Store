@@ -17,7 +17,7 @@
    
    $count = mysqli_num_rows($query);
    if ($count ==0){
-   $output = "<center><div class=\"error_msg\">OPPS! No Result Found<div></center>";
+   $output = "<center><div class=\"error_msg\">OOPS! No Result Found<div></center>";
    echo $output;
  }
  else{

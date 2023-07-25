@@ -83,7 +83,7 @@ if(isset($_POST['submit']))
            <label for="username">Username</label><br><input type="text" name="username" placeholder="Username" required><br>
            <label for="email">Password</label><br><input type="password" name="pass" placeholder="Password" required><br>
            <span class="login_sub"><input type="submit" name="submit" value="SIGN IN"></span>
-       <p>Not a member?<a href="user_register.php"> Register Now</a></p>
+       <p>Not a Member?<a href="user_register.php"> Register Now</a></p>
 
            </form>
       </div>

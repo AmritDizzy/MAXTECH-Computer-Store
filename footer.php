@@ -3,7 +3,7 @@
 		<div class="cols">
 				<div class="col media">
 				  
-					<h3>Social media</h3>
+					<h3>Social Media</h3>
 					<ul class="social">
 						<li><a href="#"><span class="ico ico-fb"></span>Facebook</a></li>
 						<li><a href="#"><span class="ico ico-tw"></span>Twitter</a></li>
@@ -27,7 +27,7 @@
 					</form>
 				</div>
 		</div>
-			<center><p class="copy">Copyright 2023 . All rights reserved.</p></center>
+			<center><p class="copy">Copyright 2023 . All Rights Reserved.</p></center>
 		
 		<!-- / container -->
 	</footer>

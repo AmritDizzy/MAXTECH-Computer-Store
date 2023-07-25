@@ -42,7 +42,7 @@ if ($count1>0 && $count2>0) {
 
 elseif ($count2) {
  
-  $phone_Err = "Phone Number Alreaydy Exist" ;
+  $phone_Err = "Phone Number Already Exist" ;
 }
 
 elseif ($count1) {
@@ -68,7 +68,7 @@ else{
 
 
 echo '<script language="javascript">';
-echo 'alert("Registration Sucessfull!")';
+echo 'alert("Registration Successful!")';
 echo '</script>';
 echo "<script> document.location.href='user_login.php';</script>";
 

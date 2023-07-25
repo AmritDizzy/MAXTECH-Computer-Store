@@ -17,7 +17,7 @@ while($row = $res->fetch_assoc())
 
 <section>
         <div id="thank_section">
-<h1><?php echo $row['s_name'];?>Your order submitted successfully </h1>
+<h1><?php echo $row['s_name'];?>Your order was submitted successfully </h1>
 
 <h1>We will let you know if your order is accepted or rejected through your email</h1></h1>
 		   <img src="images/thank.gif">
