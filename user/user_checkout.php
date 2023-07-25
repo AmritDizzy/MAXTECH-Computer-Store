@@ -36,11 +36,11 @@ echo"<script>location.href='user_login.php';</script>";
 			
 		  if($option == "Cash")
 		  {
-			$bkash = "Not Needed";
+			$endcash = "Not Needed";
 		  } 
 		  else
 		  {
-		  $bkash = $_POST['bkash'];
+		  $endcash = $_POST['endcash'];
 		  }
 
           $total = 0;
@@ -126,7 +126,7 @@ echo"<script>location.href='user_login.php';</script>";
 			 $_SESSION['cart_'.$id] = '0';
 			
 			
-            header('Location: thank-you.php');             
+            header('Location: thank-you.html');
                             
         
 		}
@@ -148,7 +148,7 @@ echo"<script>location.href='user_login.php';</script>";
                 <form action="checkout.php" method="POST">
 			     
                 
-                 <h2 style="color: green;">Total Payment : <?php echo $totaltaka;?> TK </h2> 
+                 <h2 style="color: green;">Total Payment : <?php echo $totaltaka;?> TTD </h2>
                     
                     <br>
 
@@ -194,16 +194,16 @@ echo"<script>location.href='user_login.php';</script>";
                     <select name="option" onchange="getComboA(this)" id="">
 					<option> Select Payment Type </option>
 					<option value="Cash"> Hand Cash</option>
-					<option value="Bkash"> Bkash </option>
+					<option value="Endcash"> Endcash </option>
 					</select>
 						
 				
 				<div class="form-group" style="display:none;" id="bks">
 				     
 
-                    <p><span>Please Send <?php echo $totaltaka;?> TK to Our Merchant Account Number 01888888888</span></p>
-        			<p id="cname" class="clabel"> Bkash Transection ID :</p>
-                    <input type="text" size="60" name="bkash" pattern="[0-9]+" title="numbers only" >
+                    <p><span>Please Send <?php echo $totaltaka;?> TTD to Our Merchant Account Number 01888888888</span></p>
+        			<p id="cname" class="clabel"> EndCash Transaction ID :</p>
+                    <input type="text" size="60" name="endcash" pattern="[0-9]+" title="numbers only" >
         			
 				</div>
 
@@ -211,7 +211,7 @@ echo"<script>location.href='user_login.php';</script>";
 				<div class="form-group" style="display:none;" id="cash">
 
 				
-				<p><span> Added Delivery Charge + 150 Tk (inside Dhaka Only)</span></p>
+				<p><span> Added Delivery Charge + 150 TTD (inside Chaguanas Only)</span></p>
                    
 				
 				</div>

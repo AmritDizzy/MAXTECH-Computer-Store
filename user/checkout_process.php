@@ -6,7 +6,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title><?php echo $uname;?> dashboard</title>
+  <title><?php echo $uname;?> Dashboard</title>
   
   
   <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
@@ -89,7 +89,7 @@
           $password = '';
           $db = 'ecommerce';
 
-          $conn= new mysqli($server,$username,$password,$db) or die("Failed to connect to Database ");
+          $conn= new mysqli($server,$username,$password,$db) or die("Failed to Connect to Database ");
 
             foreach($_SESSION as $name => $value)
             {
@@ -166,7 +166,7 @@
             
             $_SESSION['total'] = "0" ;
             
-            header('Location: user/thank-you.php');             
+            header('Location: user/thank-you.html');
                             
         
         }
@@ -241,16 +241,16 @@
                     <select name="option" onchange="getComboA(this)" id="">
                     <option> Select Payment Type </option>
                     <option value="Cash"> Hand Cash</option>
-                    <option value="Bkash"> Bkash </option>
+                    <option value="Bkash"> EndCash </option>
                     </select>
                         
                 
                 <div class="form-group bikaash" style="display:none;" id="bks">
                      
 
-                    <p><span>Please Send <?php echo $totaltaka;?> TK to Our Merchant Account Number 01888888888</span></p>
-                    <p id="cname" class="clabel"> Bkash Transection ID :</p>
-                    <input type="text" size="60" name="bkash" pattern="[0-9]+" title="numbers only" >
+                    <p><span>Please Send <?php echo $totaltaka;?> TTD to Our Merchant Account Number 01888888888</span></p>
+                    <p id="cname" class="clabel"> EndCash Transaction ID :</p>
+                    <input type="text" size="60" name="bash" pattern="[0-9]+" title="numbers only" >
                     
                 </div>
 
@@ -258,10 +258,10 @@
                 <div class="form-group caash" style="display:none;" id="cash">
 
                 
-                <p><span> Added Delivery Charge 150 Tk (inside Dhaka Only)</span></p>
+                <p><span> Added Delivery Charge 150 TTD (inside New Grant Only)</span></p>
                    
                 
-                <p><span> Total Payment : ( <?php echo $totaltaka;?> + 150 ) TK = <?php echo $totaltaka+150;?> TK </span></p>
+                <p><span> Total Payment : ( <?php echo $totaltaka;?> + 150 ) TTD = <?php echo $totaltaka+150;?> TTD </span></p>
 
                 </div>
                     
@@ -284,7 +284,7 @@
 
 function getComboA(sel) {
 var value = sel.value; 
-if(value=="Bkash"){
+if(value=="EndCash"){
 document.getElementById("bks").style.display = '';
  $('.caash').hide();
 
@@ -306,7 +306,7 @@ document.getElementById("cash").style.display = '';
 
 
 
-<!-- .....................============== Checkout Process Fininsh ===========........................ -->
+<!-- .....................============== Checkout Process Finish ===========........................ -->
 
 
 

@@ -15,7 +15,7 @@ include("database.php");
 
 <head>
   <meta charset="UTF-8">
-  <title>User dashboard</title>
+  <title>User Dashboard</title>
   
   
   <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
@@ -50,9 +50,9 @@ while($row = $res->fetch_assoc())
 
 <section>
 <div id="thank_section">
-<h1><?php echo $row['s_name'];?>Your order submitted successfully </h1>
+<h1><?php echo $row['s_name'];?>Your Order Submitted Successfully </h1>
 
-<h1>We let you know if your order is accepted or rejected through your mail</h1></h1>
+<h1>We will let you know if your order is accepted or rejected through your mail</h1></h1>
 <img src="../images/thank.gif">
 
 </div>

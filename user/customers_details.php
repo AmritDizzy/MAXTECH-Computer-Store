@@ -6,7 +6,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Admin dashboard</title>
+  <title>Admin Dashboard</title>
   
   
   <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
@@ -38,7 +38,7 @@
                 <tr>
                   <th>S.No.</th>
                   <th>Full Name</th>
-                  <th>Phone Numner</th>
+                  <th>Phone Number</th>
                   <th>Username</th>
                   <th>Email</th>
                 </tr>

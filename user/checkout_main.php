@@ -6,7 +6,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>User dashboard</title>
+  <title>User Dashboard</title>
   
   
   <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>

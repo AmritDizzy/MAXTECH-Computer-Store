@@ -16,7 +16,7 @@ include("database.php");
 
 <head>
   <meta charset="UTF-8">
-  <title><?php echo $uname; ?> dashboard</title>
+  <title><?php echo $uname; ?> Dashboard</title>
   
   
   <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
@@ -57,7 +57,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 
     if (empty($_POST["oldpass"])) 
     {
-              $oldpass_Err = "Your Current Paasword is required";
+              $oldpass_Err = "Your Current Password is required";
     } 
 
 
@@ -78,7 +78,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 
                             if  (empty($_POST["newpass"])) 
                                {
-                                        $newpass_Err = "New Password Field Cant be Blank!!";
+                                        $newpass_Err = "New Password Field Cannot be Blank!!";
                                } 
 
 
@@ -89,7 +89,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 
                                   if ($done) {
                                             echo '<script language="javascript">';
-                                            echo 'alert("Succesfully Password Updated ! Your New Password  : " + "'.$newpass.' ")';
+                                            echo 'alert("Successfully Updated Password ! Your New Password  : " + "'.$newpass.' ")';
 
                                             echo '</script>';
 
@@ -107,7 +107,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
                 else 
                 { 
 
-                   $oldpass_Err = "Wrong Password! Give your current passowrd !"; 
+                   $oldpass_Err = "Wrong Password! Give your current password !";
 
                 }
 
@@ -131,7 +131,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 
 
 <div class="container">
-<h2>Change Your Paasword : </h2> <br/>
+<h2>Change Your Password : </h2> <br/>
 
   <div class="row">
    
@@ -142,7 +142,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 
 
           <div class="form-group">
-            <label for="exampleInputEmail">Current Passwods</label>
+            <label for="exampleInputEmail">Current Passwords</label>
             <input type="text" class="form-control" name="oldpass">
             <span class="error">* <?php echo $oldpass_Err;?></span>
           </div>

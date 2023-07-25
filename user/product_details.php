@@ -6,7 +6,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Admin dashboard</title>
+  <title>Admin Dashboard</title>
   
   
   <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
@@ -48,7 +48,7 @@
                   <th>Earning</th>
 
                   <th>Sales</th>
-                  <th>Catagory Name</th>
+                  <th>Category Name</th>
 
                 </tr>
               </thead>
