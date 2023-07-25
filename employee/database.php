@@ -4,7 +4,7 @@
 	$password = '';
 	$db = 'ecommerce';
 
-    $conn= new mysqli($server,$username,$password,$db) or die("Failed to connect to Database ");
+    $conn= new mysqli($server,$username,$password,$db) or die("Failed to Connect to Database ");
 
    
 ?>

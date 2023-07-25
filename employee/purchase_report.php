@@ -17,7 +17,7 @@
 float:right;margin-right:3%;border-radius:2px;" onclick="window.print()">PRINT</button>
 <table>
   <tr>
-    <th>S_id</th>
+    <th>S_Id</th>
     <th>Name</th>
 	<th>Email</th>
 	<th>Phone</th>

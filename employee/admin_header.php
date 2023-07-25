@@ -17,7 +17,7 @@
 			<div class="header">
 			
 
-			<h2 >  <img src="Maxtech-Logo.jpg" class="header_title"> <br> &nbsp;&nbsp;&nbsp; MAXTECH COMPUTERS    &nbsp;   (EMPLOYEE DASHBOARD)  &nbsp;</h2>
+			<h2 >  <img src="logo.jpg" class="header_title"> <br> &nbsp;&nbsp;&nbsp; MAXTECH COMPUTERS    &nbsp;   (EMPLOYEE DASHBOARD)  &nbsp;</h2>
 
 			</div>
 

@@ -53,7 +53,7 @@ include("database.php");
         <form method="post">
         <input value="<?php echo $row1['s_id']; ?>" hidden name="id">
         <input value="<?php echo $row1['shipment_status']; ?>" hidden name="status">
-        <button type="submit" name="change" class="btn btn-info"> Detail </button>
+        <button type="submit" name="change" class="btn btn-info"> Details </button>
         </form>
 
         </td>

@@ -23,7 +23,7 @@
 
 
 
-<h1 id="report"> Requested Order Detail </h1>
+<h1 id="report"> Requested Order Details </h1>
 
 
 

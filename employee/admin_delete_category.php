@@ -9,7 +9,7 @@ if(isset($_GET['id']))
 	
 	if($query1)
 	{
-	echo"<script>alert('Are you sure')</script>";
+	echo"<script>alert('Are you sure?')</script>";
 	header('location:add_new_category.php');
 	}
 }

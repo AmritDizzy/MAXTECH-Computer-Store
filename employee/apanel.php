@@ -17,7 +17,7 @@ if( $count==1)
    header('Location:admin.php');
 }
 else
-  echo"<script>alert('enter correct username and password')</script>";
+  echo"<script>alert('Enter Correct Username and Password')</script>";
 }
 ?>
 
