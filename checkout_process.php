@@ -126,11 +126,11 @@
             
           if($option == "Cash")
           {
-            $endcash = "Not Needed";
+            $bkash = "Not Needed";
           } 
           else
           {
-          $endcash = $_POST['endcash'];
+          $bkash = $_POST['bkash'];
           }
 
           $total = 0;
@@ -177,7 +177,7 @@
                             
                             //Updating sales_info Table
                             $sid = 0;
-                            $sale_products = $conn->query("INSERT INTO sales_info SET s_id='$sid',p_id='$id',quantity='$value',cost='$total',p_option='$option',endcash='$endcash',date='$date'");
+                            $sale_products = $conn->query("INSERT INTO sales_info SET s_id='$sid',p_id='$id',quantity='$value',cost='$total',p_option='$option',bkash='$bkash',date='$date'");
                             
                         }
                         
@@ -306,12 +306,12 @@
                     </select>
                         
                 
-                <div class="form-group endcaash" style="display:none;" id="bks">
+                <div class="form-group bkash" style="display:none;" id="bks">
                      
 
                     <p><span>Please Send <?php echo $totaltaka;?> TTD to Our Merchant Account Number 01812345678</span></p>
                     <p id="cname" class="clabel"> EndCash Transaction ID :</p>
-                    <input type="text" size="60" name="endcash" pattern="[0-9]+" title="numbers only" >
+                    <input type="text" size="60" name="bkash" pattern="[0-9]+" title="numbers only" >
                     
                 </div>
 
@@ -367,7 +367,7 @@ document.getElementById("cash").style.display = '';
 
 
 
-<!-- .....................============== Checkout Process Fininsh ===========........................ -->
+<!-- .....................============== Checkout Process Finish ===========........................ -->
 
 
 
